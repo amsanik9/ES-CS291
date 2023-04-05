@@ -8,7 +8,7 @@ void main() {
     printf("Factorial of %d : %d",n,fact(n));
 }
 int fact(int a) {
-    if(a == 1) {
+    if(a == 1) {    //base condition
         return 1;
     }
     return (a*fact(a-1));

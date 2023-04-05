@@ -13,6 +13,6 @@ int GCD(int x,int y) {
         return y;        
     }
     else {
-        return GCD(y,c);
+        return GCD(y,c);    //calling itself with swapped values
     }
 }
