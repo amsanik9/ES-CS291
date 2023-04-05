@@ -3,9 +3,9 @@
 int add(int,int);
 void main() {
     int a,b;
-    printf("Enter 2 numbers : \n");
+    printf("Enter 2 numbers\n");
     scanf("%d%d",&a,&b);
-    printf("sum of %d and %d is : %d",a,b,add(a,b));
+    printf("sum of %d and %d : %d",a,b,add(a,b));
 }
 int add(int a,int b) {
     return a+b;
