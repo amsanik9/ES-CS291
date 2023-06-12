@@ -1,4 +1,5 @@
-/** Finding GCD of 2 numbers using recuirison*/
+/** Finding GCD of 2 numbers using recursion*/
+//Euclid's algorithm
 #include<stdio.h>
 int GCD(int,int);
 void main() {
